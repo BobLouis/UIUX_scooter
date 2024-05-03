@@ -36,41 +36,42 @@ export default Home;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "#121212",
+    flex: 1, // 使容器使用所有可用空間
+    alignItems: "center", // 水平居中對齊子組件
+    justifyContent: "center", // 垂直居中對齊子組件
+    backgroundColor: "#121212", // 設置容器的背景顏色
   },
   img: {
-    height: "50%",
-    width: "120%",
-    resizeMode: "contain",
+    height: "50%", // 將圖片高度設置為其容器的50%
+    width: "120%", // 將圖片寬度設置為其容器的120%
+    resizeMode: "contain", // 確保圖片按比例縮放並適應框架內
   },
   title: {
-    color: "#FFF",
-    fontFamily: "Montserrat_700Bold",
-    fontSize: 30,
-    marginTop: 20,
+    color: "#FFF", // 文字顏色設為白色
+    fontFamily: "Montserrat_700Bold", // 設置文字的字體家族和粗細
+    fontSize: 30, // 設置字體大小
+    marginTop: 20, // 文字上方增加邊距
   },
   detail: {
-    color: "#FFF",
-    fontFamily: "Montserrat_400Regular",
-    fontSize: 18,
-    textAlign: "center",
-    paddingHorizontal: 20,
-    lineHeight: 30,
-    marginTop: 30,
+    color: "#FFF", // 文字顏色設為白色
+    fontFamily: "Montserrat_400Regular", // 設置文字的字體家族和粗細
+    fontSize: 18, // 設置字體大小
+    textAlign: "center", // 水平居中對齊文字
+    paddingHorizontal: 20, // 文字框內側水平方向添加填充
+    lineHeight: 30, // 設置文字的行高
+    marginTop: 30, // 文字上方增加邊距
   },
   btn: {
-    marginTop: 80,
-    backgroundColor: "#E2443B",
-    paddingHorizontal: 140,
-    paddingVertical: 10,
-    borderRadius: 30,
+    marginTop: 80, // 按鈕上方增加邊距
+    backgroundColor: "#E2443B", // 設置按鈕的背景顏色
+    paddingHorizontal: 140, // 按鈕內側水平方向添加填充
+    paddingVertical: 10, // 按鈕內側垂直方向添加填充
+    borderRadius: 30, // 按鈕邊緣圓角化
   },
   text: {
-    fontFamily: "Montserrat_600SemiBold",
-    fontSize: 30,
-    color: "#FFF",
+    fontFamily: "Montserrat_600SemiBold", // 設置按鈕文字的字體家族和粗細
+    fontSize: 30, // 設置按鈕文字的字體大小
+    color: "#FFF", // 文字顏色設為白色
   },
 });
+
